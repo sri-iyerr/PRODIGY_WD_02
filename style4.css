@@ -1,0 +1,63 @@
+body{
+    background: #2a292a;
+    color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.frame{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button{
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 300;
+    width: 110px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid white;
+}
+
+.controls button:hover{
+    background: transparent;
+    color: white;
+    
+}
+
+.stopwatch{
+    font-size: 10em;
+    font-family: monospace;
+    margin-top: 20px;
+}
+
+.laps{
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: 187px;
+    left: 71px;
+    width: 200px;
+    overflow: auto; /*it is providing the scroll bar*/
+    max-height: 150px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+    padding: 10px 0;
+}
